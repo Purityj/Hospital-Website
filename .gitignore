@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment folders
+venv/
+.env/
+.env.bak/
+.env.local/
+env/
+env.bak/
+env.local/
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+
+Rasa-specific:
+
+bash
+
+# Rasa models
+models/
+*.tar.gz
+
+# Rasa temporary or cache files
+data/core/.session.persist
+data/nlu/.session.persist
+
+# Logs and other runtime artifacts
+logs/
+events.db
+rasa.db
+*.log
+
+# VSCode
+.vscode/
+
+# Docker files
+docker-compose.override.yml
+*.env
+
+# GitHub Actions workflow files
+.github/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+npm-debug.log
